@@ -89,10 +89,7 @@ sudo apt update
 sudo apt install build-essential libncurses-dev```
 
 
-### macOS
-
-If needed:
-brew install ncurses
+(For macOS, if needed: brew install ncurses）
 
 ✅ Build the Project
 bash
