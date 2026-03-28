@@ -86,23 +86,24 @@ Each match features:
 ### Ubuntu / WSL
 ```bash
 sudo apt update
-sudo apt install build-essential libncurses-dev```
+sudo apt install build-essential libncurses-dev
+```
 
 
 (For macOS, if needed: brew install ncurses）
 
 ✅ Build the Project
-bash
+```bash
 make
-
+```
 This will compile the source files and generate the executable:
 
 nim_game
 
 ✅ Run the Game
-bash
+```bash
 ./nim_game
-
+```
 ---
 
 ### 🤖 AI Implementation
