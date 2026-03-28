@@ -86,7 +86,8 @@ Each match features:
 ### Ubuntu / WSL
 ```bash
 sudo apt update
-sudo apt install build-essential libncurses-dev
+sudo apt install build-essential libncurses-dev```
+
 
 ### macOS
 
