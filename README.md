@@ -76,19 +76,34 @@ Each match features:
 
 **Prerequisites**: A terminal size of at least **150×40** columns. Otherwise, you’ll see a prompt to enlarge your window.
 
-1. **Upload**: Transfer the unzipped game folder to the HKU CS server using FileZilla (VPN required).
-2. **Log in**: SSH into `cs.hku.hk` with your department credentials.
-3. **Navigate**: `cd <project-folder>` (e.g., `cd 1340Project`).
-4. **Set permissions**:
+### ✅ System Requirements
+- g++ (C++11 or above)
+- make
+- ncurses (wide-character version recommended)
 
-   ```bash
-   chmod +x run.sh nim_game
-   ```
-5. **Run**:
+### ✅ Install Dependencies
 
-   ```bash
-   make run
-   ```
+### Ubuntu / WSL
+```bash
+sudo apt update
+sudo apt install build-essential libncurses-dev
+
+### macOS
+
+If needed:
+brew install ncurses
+
+✅ Build the Project
+bash
+make
+
+This will compile the source files and generate the executable:
+
+nim_game
+
+✅ Run the Game
+bash
+./nim_game
 
 ---
 
