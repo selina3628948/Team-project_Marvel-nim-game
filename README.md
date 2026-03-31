@@ -94,7 +94,11 @@ sudo apt install build-essential libncurses-dev
 ```bash
 brew install ncurses
 ```
-
+✅ Clone from Github
+```
+git clone https://github.com/selina3628948/Team-project_Marvel-nim-game.git
+cd Team-project_Marvel-nim-game
+```
 ✅ Build the Project
 ```bash
 make
